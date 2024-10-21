@@ -1,7 +1,3 @@
-# ECE_319K_Space_Invaders
-
-<br />
-
 # DESIGN PROBLEM
 The component restrictions for this project played an important role in shaping the final design of the game. We were required to use specific hardware components such as external buttons, a slide pot for analog input, and an LCD for graphical display. These components formed the foundation of the game’s user interface, with buttons used for player controls, such as allowing the player to fire a projectile or pause te game, while the slide-pot allowed for smooth controls with the game, like player movement. This requirement introduced the challenge of precise analog to digital conversion and real-time sampling to ensure responsiveness in the game environment. Another important requirement was the need to incorporate graphics and sound, which had to move in response to either user input or times events. These graphics (or sprites) would represent key game elements such as the player’s character or enemies. The game also had to generate sound through a digital to analog converter (DAC) with sound effects triggered by specific game events such as a button press or an enemy death. The game graphics and sounds had to be synchronized with user actions. This required efficient data flow management for displaying sprite data and efficiently sound generate to not interfere with other game operations.
 
